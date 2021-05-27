@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  #poster {
+    width: 400px;
+    height: auto;
+  }
+
+  p {
+    display: inline;
+    margin-left: 16px;
+  }
+
+  .red-box {
+    background-color: #807182;
+    height: 200px;
+  }
+
+  .col-1\/3 {
+    width: 33%;
+    float: left;
+    border-left: 1px solid black;
+  }
+
+  .col-2\/3 {
+    width: 66.66%;
+    float: left;
+  }
+
+</style>
+<body>
+  <header>
+    <img src="images/githublogo-v3.png" class="logo" id="logo" />
+    <p>Github</p>
+  </header>
+
+  <main>
+    <h4>
+      Welcome to GitHub
+    </h4>
+    <p>
+      <img src="images/github-poster.png" class="poster" id="poster" />
+    </p>
+  </main>
+
+  <div>
+    <div class="col-2/3">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla vitae nisl ut sagittis. Nullam ut arcu velit. Vestibulum ac leo justo. Nulla facilisi. Mauris non eleifend urna. Sed neque ligula, blandit dapibus luctus non, vulputate et mi. Fusce aliquet, magna ut interdum suscipit, enim nibh venenatis magna, a vestibulum enim dolor iaculis urna. In hendrerit nisi eu mauris ornare ultrices. Nullam neque neque, vulputate eget blandit quis, pulvinar eget tortor. Morbi non pellentesque lorem. Mauris ipsum neque, cursus eget laoreet a, feugiat ut nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus dui ligula, viverra at cursus eget, faucibus et nibh.
+      </p>
+      <p>
+        Coba liat <b>kesini</b> <i>italic</i> <strike>strikethrough</strike>.
+      </p>
+    </div>
+    <div class="col-1/3 red-box"></div>
+  </div>
+
+  <div>
+    <div class="col-1/3 red-box"></div>
+    <div class="col-1/3 red-box"></div>
+    <div class="col-1/3 red-box"></div>
+  </div>
+
+  <footer>
+    <img src="images/githublogo-v3.png" class="logo" id="logo" />
+    <p>Github</p>
+  </footer>
+
+</body>
+</html>
